@@ -1,35 +1,80 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# chibitales.org - Milestone Project 1
+Blockchain gaming! It's still a niche product, not easily accessible for Jane or Joe Doe. But it promises users not only the fun of digital gaming but the OWNERSHIP of the content created by playing the game.
 
-Welcome USER_NAME,
+One of the most promising games around is Chibi Fighters 2: A multi-platform, browser based mixture between TCG (Trading Card Game), IDLE and potentially PVP (player vs player) game. Unfortunately, based on blockchain technologies, it’s still struggling to find its user base.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+chibitales.org aims to close that gap and provide potential new players with all the information necessary to set up an account, a wallet, to start playing the game and to support the project via kickstarter.com – in a well styled, easy to use, understandable and visually appealing manner.
 
-## Gitpod Reminders
+## UX
+So far neither Chibi Fighters 2 nor its website provide much guidance to new players, not familiar with the technology. On chibitales.org new players will find all the information and resources needed just two clicks away:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* You want to find out what the game is about - take a look at the main page.
 
-`python3 -m http.server`
+* You want to know how to set up an account - click Setup, Account.
 
-A blue button should appear to click: *Make Public*,
+* You want to know how to buy packs - click Setup, Buy Packs.
 
-Another blue button should appear to click: *Open Browser*.
+* You need an Ethereum wallet - click Wallet.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* You want to know how to open your packs - click Play - Open Packs.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+!! Wireframe links !!
 
-## Updates Since The Instructional Video
+## Features
+* The hero image and navigation will provide all users with a visual impression of the game .
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+* The footer will provide all relevant social media links, sorted by relevance in reading direction.
+ 
+* Potential players, which in this case are users and investors alike, will find general information about the game and all necessary warnings on the main page.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* Setup will guide users through the process of setting up an account.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Wallet will give all necessary information on how to create an Ethereum wallet and how to put some money into it.
 
---------
+* Play will contain four sections giving tips on how to play the game:
 
-Happy coding!
+  * Adventures
+  * Raids
+  * Hunt
+  * Match
+
+* Across all pages there will be directly accessible links to buy game packs and to support via kickstarter.
+
+## Features
+
+### Existing Features
+
+* none
+
+### Features Left to Implement
+
+* General pagelayout
+* Hero image
+* navigation bar
+* footer
+* main page
+* setup page
+* wallet page
+* play page
+
+## Testing
+All HTML5 code is tested via the W3C Markup Validation Service.
+All CSS3 code is tested via the W3C CSS Validation Service.
+
+## Deployment
+The domain chibitales.org was purchased on godaddy.com.\
+The open project repository is available under xyz.\
+The website is published under the domain chibitales.org as a GitHub page.
+
+## Credits
+
+### Content
+Graphics and Layout: Chibifighters.com by Garry Runke
+
+### Media
+Tutorial videos are created with ActivePresenter and are hosted by Youtube.
+
+### Acknowledgements
+The layout of chibtales.org is inspired by the Resume and Whiskey Drop walk through projects developed by Codeinstitute.
