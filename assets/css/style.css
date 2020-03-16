@@ -1,0 +1,52 @@
+/*------------------------------ FONTS --------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/*------------------------------ GENERAL --------------------------------*/
+
+.uppercase{
+    text-transform: uppercase; 
+}
+
+/*------------------------------ COLORS --------------------------------*/
+
+.bg-color-header{
+    background-color: #f4f4f4;
+}
+
+/*------------------------------ HEADER --------------------------------*/
+
+.logo{
+    background: url("../images/skully.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 240px;
+}
+
+.headline{    
+    color: #2c0a37;
+    text-align: center;
+    margin: 0;
+    padding: 0;       
+    margin-top: 1.5vmin;
+}
+
+.headline h1{
+    font-family: "Exo", sans-serif;
+    font-size: 4.0vmin;
+}
+
+.headline h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 8.0vmin;
+    letter-spacing: 120%;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.headline h3{
+    font-family: "Exo", sans-serif;
+    font-size: 5.0vmin;
+    font-weight: 300;
+}

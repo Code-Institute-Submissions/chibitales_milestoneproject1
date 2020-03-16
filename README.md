@@ -60,12 +60,12 @@ So far neither Chibi Fighters 2 nor its website provide much guidance 
 * play page
 
 ## Testing
-All HTML5 code is tested via the W3C Markup Validation Service.
+All HTML5 code is tested via the W3C Markup Validation Service.\
 All CSS3 code is tested via the W3C CSS Validation Service.
 
 ## Deployment
 The domain chibitales.org was purchased on godaddy.com.\
-The open project repository is available under xyz.\
+The open project repository is available under https://github.com/RaphaelRohner/chibitales.org_milestoneproject1.git.\
 The website is published under the domain chibitales.org as a GitHub page.
 
 ## Credits
