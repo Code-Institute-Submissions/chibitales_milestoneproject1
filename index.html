@@ -3,36 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
     
+    <!-- BOOTSTRAP CSS3 INTEGRATION -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    
+    <!-- FONTAWESOME ICONS INTEGRATION -->
+    <script src="https://kit.fontawesome.com/8fb5ae9ef1.js" crossorigin="anonymous"></script>
+    
+    <!-- GOOGLE FONTS INTEGRATION -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    
+    <!-- EXTERNAL CSS3 STYLESHEET INTEGRATION -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>chibitales</title>
 </head>
 <body>
     <header>
-        <div class="row no-gutters bg-color-header">
+        <!-- NAVIGATION -->
+        <div class="row">
+            <div class="col">                
+                <nav class="navbar navbar-expand-md fixed-top navbar-light">
+                    <div class="container">
+                        <!-- a class="navbar-brand" href="#">chibitales.org</a -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <!-- Button Buy -->
+                                <li class="nav-item active list-inline-item menuitem">
+                                    <a class="btn btn-color" href="https://chibifighters.com/buy" target="_blank" role="button"><i class="fas fa-euro-sign" aria-hidden="true"></i><span> Get Packs</span></a>
+                                </li>
+
+                                <!-- Button Game -->
+                                <li class="nav-item active list-inline-item menuitem">
+                                    <a class="btn btn-color" href="#" role="button"><i class="fa fa-home" aria-hidden="true"></i><span> Game</span></a>
+                                </li>
+
+                                <!-- Button Play -->
+                                <li class="nav-item list-inline-item menuitem dropdown">
+                                    <a class="btn btn-color dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gamepad" aria-hidden="true"></i><span> Play</span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Adventures</a>
+                                    <a class="dropdown-item" href="#">Hunt</a>
+                                    <a class="dropdown-item" href="#">Raids</a>
+                                    <a class="dropdown-item" href="#">Match</a>
+                                    </div>
+                                </li>
+
+                                <!-- Button Setup -->
+                                <li class="nav-item list-inline-item menuitem dropdown">
+                                    <a class="btn btn-color dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-wrench" aria-hidden="true"></i><span> Setup</span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Create Account</a>
+                                    <a class="dropdown-item" href="#">Buy Packs</a>
+                                    <a class="dropdown-item" href="#">Open Packs</a>
+                                    <a class="dropdown-item" href="#">Collection</a>
+                                    </div>
+                                </li>
+
+                                <!-- Button Wallet -->
+                                <li class="nav-item list-inline-item menuitem dropdown">
+                                    <a class="btn btn-color dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fab fa-ethereum" aria-hidden="true"></i><span> Wallet</span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">MetaMask</a>
+                                    <a class="dropdown-item" href="#">Connect MM</a>
+                                    <a class="dropdown-item" href="#">Mint Chibis</a>
+                                    </div>
+                                </li>
+
+                                <!-- Button Support -->
+                                <li class="nav-item active list-inline-item menuitem">
+                                    <a class="btn btn-color" href="https://www.kickstarter.com/projects/garryrunke/chibi-fighters" target="_blank" role="button"><i class="fas fa-coins" aria-hidden="true"></i><span> Support</span></a>
+                                </li>
+                            </ul>                    
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- HEADLINE -->
+        <div  class="row no-gutters bg-color-header">
+            <!-- Hero Image -->
             <a  href="index.html" class="col-md-4 logo">            
             </a>
+            
+            <!-- Headline -->
             <div class="col-md-8 headline uppercase">
                 <div class="col">
                     <h1>chibitales.org</h1>
                     <h2>chibi fighters 2.0</h2>
                     <h3>- all you need to know -</h3>
                 </div>
-                
             </div>
         </div>
     </header>
+        
     <section>
     
     </section>
+
     <footer>
     
-    </footer>    
+    </footer>
+
+    <!-- Bootstrap Javascript Links for the Menu -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    
 </body>
 </html>
