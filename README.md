@@ -46,14 +46,21 @@ So far neither Chibi Fighters 2 nor its website provide much guidance 
 
 ### Existing Features
 
-* none
+* Hero image
+* Title and Slogan
+* Navigation Bar
+* Footer
 
 ### Features Left to Implement
 
-* General pagelayout
-* Hero image
-* navigation bar
-* footer
+* Navigation Bar: Center Buttons
+* Navigation Bar: Invert color theme for Invest Buttons
+* Navigation Bar: Change active Button Border Color to gold
+* Navigation Bar: Align Title and Slogan for LG and XL views
+* Navigation Bar: Change Dropdown BG Color to theme color
+* Navigation Bar: Change Dropdown Text Color to theme color
+
+* Footer:
 * main page
 * setup page
 * wallet page
