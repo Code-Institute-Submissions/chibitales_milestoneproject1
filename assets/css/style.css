@@ -78,7 +78,9 @@
     color: #fafafa;
 }
 
-.btn{
+/*------------------------------ BUTTONS --------------------------------*/
+
+.btn-chib{
     background-color: #2c0a37;
     border-color: #2c0a37;
     color: #f4f4f4;
@@ -90,10 +92,28 @@
     padding: 0 5;
 }
 
-.btn:hover,
-.btn:focus{
+.btn-chib:hover,
+.btn-chib:focus{
     color: #ffc107;
     box-shadow: none;  
+}
+
+.btn-chib-high{
+    background-color: #2c0a37;
+    border-color: #2c0a37;
+    color: #ffc107;
+    width: 120px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 0 5;    
+}
+
+.btn-chib-high:hover,
+.btn-chib-high:focus{
+    color: #f4f4f4;
+    box-shadow: none; 
 }
 
 .navbar{
