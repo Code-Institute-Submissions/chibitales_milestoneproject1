@@ -33,51 +33,24 @@
     background-color: #2c0a37;
 }
 
-/*------------------------------ HEADER --------------------------------*/
-
-.logo{
-    background: url("../images/Skully_Hero_240.jpg");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-color: #2c0a37;
-    min-height: 240px;
-}
-
-.headline{    
-    color: #2c0a37;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.headline h1{
-    font-family: "Exo", sans-serif;
-    font-size: 4.0vmin;
-    text-transform: lowercase;    
-    margin-top: 20px;
-}
-
-.headline h2{
-    font-family: "Roboto", sans-serif;
-    font-size: 8.0vmin;
-    letter-spacing: 120%;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.headline h3{
-    font-family: "Exo", sans-serif;
-    font-size: 4.0vmin;
-    font-weight: 300;
-}
-
 /*------------------------------ NAVBAR --------------------------------*/
+
+.navbar{
+    margin: 0 auto;
+    border: 0;
+    width: 100%;
+    background-color: rgba(17.3,3.9,21.6,0);   
+}
+
+.list-inline-item:not(:last-child){
+    margin:0;
+}
 
 .navbar-toggler-icon{
     color: #fafafa;
 }
 
-/*------------------------------ BUTTONS --------------------------------*/
+/*--------------- Nav BUTTONS -----------------*/
 
 .btn-chib{
     background-color: #2c0a37;
@@ -115,27 +88,12 @@
     box-shadow: none; 
 }
 
-.navbar{
-    margin: 0 auto;
-    border: 0;
-    width: 100%;
-    background-color: rgba(17.3,3.9,21.6,0);   
-}
-
-.list-inline-item:not(:last-child){
-    margin:0;
-}
-/*
-.container{    
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%); 
-}
-*/
 .dropdown-menu{
     background-color: #2c0a37;
     max-width: 125px;  
 }
+
+/*--------------- Nav Dropdown -----------------*/
 
 .dropdown-item{
     color: #f4f4f4;
@@ -144,6 +102,49 @@
 .dropdown-item:hover{
     background-color: #2c0a37;
     color: #ffc107;
+}
+
+
+/*------------------------------ HEADER --------------------------------*/
+
+/*--------------- Header HERO IMAGE -----------------*/
+
+.logo{
+    background: url("../images/Skully_Hero_240.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #2c0a37;
+    min-height: 240px;
+}
+
+/*--------------- Header HEADLINES -----------------*/
+
+.headline{    
+    color: #2c0a37;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.headline h1{
+    font-family: "Exo", sans-serif;
+    font-size: 4.0vmin;
+    text-transform: lowercase;    
+    margin-top: 20px;
+}
+
+.headline h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 8.0vmin;
+    letter-spacing: 120%;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.headline h3{
+    font-family: "Exo", sans-serif;
+    font-size: 4.0vmin;
+    font-weight: 300;
 }
 
 /*------------------------------ SECTION --------------------------------*/
@@ -221,16 +222,25 @@ footer{
     .headline h1{    
     margin-top: 80px;
     }
+
+    .navbar{
+        margin-left: 20vw;
+    }
       
 }
 
 /*----------LARGE----------*/
 @media(min-width: 960px){
+
     
 }
 
 /*----------XLARGE----------*/
-@media(min-width: 1200px){    
+@media(min-width: 1200px){
+
+    .navbar{
+        margin-left: 25vw;
+    }
 
     .social-links li a i {
         width: 38px;
