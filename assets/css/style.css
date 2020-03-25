@@ -163,6 +163,17 @@ footer{
     margin:0;
 }
 
+.newsletter{
+    font-style: oblique;
+    letter-spacing: 1.1px;
+}
+
+.newsletter a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+
 .social-links{
     padding-bottom: 15px;
 }
@@ -201,6 +212,17 @@ footer{
 
 #footer-details{
     padding: 20px;
+}
+
+/*------------------------------ MODAL --------------------------------*/
+
+.modal-content{
+    background-color: rgba(17.3,3.9,21.6,0.96);
+    color: #f4f4f4;
+}
+
+.modal-backdrop{
+    background-color: rgba(255,255,255, 0.8)
 }
 
 /*------------------------------ MEDIA_QUERIES --------------------------------*/
