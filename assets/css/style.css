@@ -160,11 +160,13 @@
 }
 
 .section-column-left{
-    color:#f4f4f4
+    color:#f4f4f4;
+    border-top: 1px solid #2c0a37;
 }
 
 .section-column-right{
     color: #2c0a37;
+    border-top: 1px solid #2c0a37;
 }
 
 .section-heading-left,
@@ -178,7 +180,6 @@
 .section-heading-left{    
     color: #ffc107;
 }
-
 .section-heading-right{    
     color: #2c0a37;
 }
