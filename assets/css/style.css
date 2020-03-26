@@ -147,19 +147,97 @@
     font-weight: 300;
 }
 
-/*------------------------------ SECTION --------------------------------*/
+/*------------------------------ SECTIONS --------------------------------*/
 
-.fighters{
-    text-align: center;
+/*---------- GAME SECTION ----------*/
+
+.section-column-left,
+.section-column-right{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+    font-size: 85%;
 }
 
+.section-column-left{
+    color:#f4f4f4
+}
+
+.section-column-right{
+    color: #2c0a37;
+}
+
+.section-heading-left,
+.section-heading-right{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.section-heading-left{    
+    color: #ffc107;
+}
+
+.section-heading-right{    
+    color: #2c0a37;
+}
+
+.personal-info-item{
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value{
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p{
+    font-weight: 700;
+}
+
+.personal-info-item .value{
+    position: relative;
+    width: 60%;
+}
+
+/* ---------------------------------Three Reasons */
+
+.three-reasons-icon{
+    font-size: 26px;
+    color: #ffc107;
+}
+
+.three-reasons-heading{    
+    margin-bottom: 15px;
+}
+
+.three-reasons-heading,
+.three-reasons-heading p{
+    color: #2c0a37;
+}
 
 /*------------------------------ FOOTER --------------------------------*/
 
 footer{
     background-color: #2c0a37;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 80px;
     margin:0;
 }
 
