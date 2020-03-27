@@ -151,6 +151,8 @@
 
 /*---------- GAME SECTION ----------*/
 
+.section-column-left-main,
+.section-column-right-main,
 .section-column-left,
 .section-column-right{
     display: table-cell;
@@ -159,11 +161,13 @@
     font-size: 85%;
 }
 
+.section-column-left-main,
 .section-column-left{
     color:#f4f4f4;
     border-top: 1px solid #2c0a37;
 }
 
+.section-column-right-main,
 .section-column-right{
     color: #2c0a37;
     border-top: 1px solid #2c0a37;
@@ -326,6 +330,11 @@ footer{
 
     .navbar{
         margin-left: 20vw;
+    }
+
+    .section-column-left,
+    .section-column-right{
+        padding-top: 70px;
     }
       
 }
