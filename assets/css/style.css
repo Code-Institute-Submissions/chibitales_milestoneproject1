@@ -152,7 +152,7 @@
 
 /*------------------------------ SECTIONS --------------------------------*/
 
-/*---------- GAME SECTION ----------*/
+/*---------- COLUMNS FORMAT ----------*/
 
 .section-column-left-main,
 .section-column-right-main,
@@ -195,52 +195,54 @@
     color: #2c0a37;
 }
 
-.personal-info-item{
+/*---------- CHIBI OVERVIEW SECTION ----------*/
+
+.chibi-overview-item{
     margin-bottom: 20px;
     display: block;
     clear: both;
 }
 
-.personal-info-item .key,
-.personal-info-item .value{
+.chibi-overview-item .key,
+.chibi-overview-item .value{
     padding-right: 8px;
     display: inline-block;
 }
 
-.personal-info-item .key p,
-.personal-info-item .value p{
+.chibi-overview-item .key p,
+.chibi-overview-item .value p{
     margin: 0;
 }
 
-.personal-info-item .key {
+.chibi-overview-item .key {
     width: 30%;
     margin-right: 21px;
     padding-top: 2px;
     vertical-align: top;
 }
 
-.personal-info-item .key p{
+.chibi-overview-item .key p{
     font-weight: 700;
 }
 
-.personal-info-item .value{
+.chibi-overview-item .value{
     position: relative;
     width: 60%;
 }
 
-/* ---------------------------------Three Reasons */
+/*---------- CHIBI INFOS SECTION ----------*/
 
-.three-reasons-icon{
+.chibi-infos-icon{
     font-size: 26px;
     color: #ffc107;
 }
 
-.three-reasons-heading{    
+.chibi-infos-heading{    
     margin-bottom: 15px;
 }
 
-.three-reasons-heading,
-.three-reasons-heading p{
+.chibi-infos-heading,
+.chibi-infos-heading p{
     color: #2c0a37;
 }
 
