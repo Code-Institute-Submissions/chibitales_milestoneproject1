@@ -1,87 +1,112 @@
 # chibitales.org - Milestone Project 1
 Blockchain gaming! It's still a niche product, not easily accessible for Jane or Joe Doe. But it promises users not only the fun of digital gaming but the OWNERSHIP of the content created by playing the game.
 
-One of the most promising games around is Chibi Fighters 2: A multi-platform, browser based mixture between TCG (Trading Card Game), IDLE and potentially PVP (player vs player) game. Unfortunately, based on blockchain technologies, it’s still struggling to find its user base.
+One of the most promising games around is Chibi Fighters 2: A multi-platform, browser based mixture between TCG (Trading Card Game), IDLE and potentially PVP (Player vs Player) game. Unfortunately, based on blockchain technologies, it’s still struggling to find its user base.
 
-chibitales.org aims to close that gap and provide potential new players with all the information necessary to set up an account, a wallet, to start playing the game and to support the project via kickstarter.com – in a well styled, easy to use, understandable and visually appealing manner.
+chibitales.org aims to close that gap and provide potential new players as well as veterans with all the information necessary.
 
 ## UX
-So far neither Chibi Fighters 2 nor its website provide much guidance to new players, not familiar with the technology. On chibitales.org new players will find all the information and resources needed just two clicks away:
+The user experience delivered by the interface: All information is a maximum of two clicks away and sorted by relevance.
 
-* You want to find out what the game is about - take a look at the main page.
+New players: So far neither Chibi Fighters 2.0 nor its website provide much practical guidance to new players, not familiar with the technology.
 
-* You want to know how to set up an account - click Setup, Account.
+Let's change this here:
+
+* You want to find out what the game is about - take a look at the Homepage.
+
+* You want to know how to set up an account - click Setup, Create Account.
 
 * You want to know how to buy packs - click Setup, Buy Packs.
 
-* You need an Ethereum wallet - click Wallet.
+* You need an Ethereum wallet - click Trade, MetaMask.
 
-* You want to know how to open your packs - click Play - Open Packs.
+* You want to know how to open your packs - click Setup - Open Packs and so on.
 
+Veterans: But even for users already playing the game, changes are not transparent.
 
+The page wants to address both groups and therefore the navigation UX is build around varying and static information:
 
-!! Wireframe links !!
+* Relevant, ever changing information is accessible via the first two Sections: Game and Play
+
+* More static and most likely one time information is accessible via the second two sections: Setup and Trade
+
+For both audiences all relevant links are accessible from anywhere:
+
+* Open the game - click the Hero image
+
+* Buy or support - from the Navigation Bar and from the Footer
+
+* All social community channels from the footer
+
+* Signing up for a fictive newsletter is integrated in the footer via a dummy Modal
 
 ## Features
-* The hero image and navigation will provide all users with a visual impression of the game .
+* The hero image and colors used provide a visual impression of the game.
 
-* The footer will provide all relevant social media links, sorted by relevance in reading direction.
+* The Navigation gives access to any section within two clicks.
+
+* The footer provides all relevant social media links, sorted by relevance in reading direction.
  
-* Potential players, which in this case are users and investors alike, will find general information about the game and all necessary warnings on the main page.
+* Potential players, which in this case are users and investors alike, find general information about the game and all necessary warnings on the main page.
 
-* Setup will guide users through the process of setting up an account.
-
-* Wallet will give all necessary information on how to create an Ethereum wallet and how to put some money into it.
-
-* Play will contain four sections giving tips on how to play the game:
+* Play contains four sections giving tipps on how to play the game:
 
   * Adventures
   * Raids
   * Hunt
   * Match
 
-* Across all pages there will be directly accessible links to buy game packs and to support via kickstarter.
+* Setup guides users through the process of setting up an account and starting the game.
 
-## Features
+* Trade gives all necessary information on how to create an Ethereum wallet and how to use it.
 
-### Existing Features
+* Across all pages there are directly accessible links to buy game packs and to support via kickstarter.
 
-* Hero image
-* Title and Slogan
-* Navigation Bar
-* Footer
+* Given all overview Sections are located under dropdown menues and their minor relevance the link is placed at the bottom of the dropdown.
 
-### Features Left to Implement
+## Future Features
 
-* Navigation Bar: Center Buttons
-* Navigation Bar: Invert color theme for Invest Buttons
-* Navigation Bar: Change active Button Border Color to gold
-* Navigation Bar: Align Title and Slogan for LG and XL views
-* Navigation Bar: Change Dropdown BG Color to theme color
-* Navigation Bar: Change Dropdown Text Color to theme color
+* chibitales.org is meant to be work in progress and an ongoing project over the course.
+* Possible features are legion:
+*  A better responsive design for tablet sized devices
+*  An adjusted navigation menu for more and different content
+*  Explanatory tooltips for gamer's jargon via JS
+*  An overview about editions and cards from the games database
+*  Game statistic page / database
 
-* Footer:
-* main page
-* setup page
-* wallet page
-* play page
 
 ## Testing
 All HTML5 code is tested via the W3C Markup Validation Service.\
-All CSS3 code is tested via the W3C CSS Validation Service.
+All CSS3 code is tested via the W3C CSS Validation Service.\
+Navigation and responsive design was tested on laptop with the latest versions of:
+* Google Chrome
+* Firefox
+* MS Edge
+* Brave
+* Opera
+
+Navigation and responsive design was tested on:
+* Mobile Alacatel A1
+* Amazon Fire tablet
 
 ## Deployment
 The domain chibitales.org was purchased on godaddy.com.\
 The open project repository is available under https://github.com/RaphaelRohner/chibitales.org_milestoneproject1.git.\
+The project is deployed under https://raphaelrohner.github.io/chibitales.org_milestoneproject1/\
 The website is published under the domain chibitales.org as a GitHub page.
 
 ## Credits
 
 ### Content
-Graphics and Layout: Chibifighters.com by Garry Runke
+Graphics, content and colors: Chibifighters.com by Gary Runke
 
-### Media
-Tutorial videos are created with ActivePresenter and are hosted by Youtube.
+### chibitales.org is heavily based on modified:
+
+#### Codeinstitute's Resume Walkthrough project
+#### Codeinstitute's Whiskey Drop Walkthrough project
+#### Bootstrap
 
 ### Acknowledgements
-The layout of chibtales.org is inspired by the Resume and Whiskey Drop walk through projects developed by Codeinstitute.
+Major Thanks @ Gary for the OK to use Chibi Fighters graphics and for the game itself! Let's make it a success - it's so cool!\
+Thanks @terminali for https://stackoverflow.com/a/42794613 and how to remove a box-shadow!\
+And thumbs up to everyone @Slack, w3schools and stackoverflow. Without your answers to other problems, I wouldn't have figured out the solutions to mine!
