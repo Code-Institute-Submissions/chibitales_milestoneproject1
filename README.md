@@ -30,6 +30,8 @@ The page wants to address both groups and therefore the navigation UX is build a
 
 * More static and most likely one time information is accessible via the second two sections: Setup and Trade
 
+* Both are following a learning curve from new to experienced
+
 For both audiences all relevant links are accessible from anywhere:
 
 * Open the game - click the Hero image
@@ -68,11 +70,11 @@ For both audiences all relevant links are accessible from anywhere:
 
 * chibitales.org is meant to be work in progress and an ongoing project over the course.
 * Possible features are legion:
-*  A better responsive design for tablet sized devices
-*  An adjusted navigation menu for more and different content
-*  Explanatory tooltips for gamer's jargon via JS
-*  An overview about editions and cards from the games database
-*  Game statistic page / database
+  * A better responsive design for tablet sized devices
+  * An adjusted navigation menu for more and different content
+  * Explanatory tooltips for gamer's jargon via JS
+  * An overview about editions and cards from the games database
+  * Game statistic page / database
 
 
 ## Testing
@@ -92,15 +94,15 @@ Navigation and responsive design was tested on:
 ## Deployment
 The domain chibitales.org was purchased on godaddy.com.\
 The open project repository is available under https://github.com/RaphaelRohner/chibitales.org_milestoneproject1.git.\
-The project is deployed under https://raphaelrohner.github.io/chibitales.org_milestoneproject1/\
-The project is published under the domain chibitales.org as a GitHub page.
+The project is deployed under https://raphaelrohner.github.io/chibitales.org_milestoneproject1/ \
+The project is published under the domain https://chibitales.org as a GitHub page.
 
 ## Credits
 
 ### Content
 Graphics, content and colors: Chibifighters.com by Gary Runke
 
-### chibitales.org is heavily based on modified:
+### chibitales.org is based on modified:
 
 #### Codeinstitute's Resume Walkthrough project
 #### Codeinstitute's Whiskey Drop Walkthrough project
